@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@vercel/analytics':
     specifier: ^1.0.1
@@ -26,8 +30,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-intersection-observer:
-    specifier: ^9.4.3
-    version: 9.4.3(react@18.2.0)
+    specifier: ^9.5.1
+    version: 9.5.1(react@18.2.0)
 
 devDependencies:
   autoprefixer:
@@ -2124,8 +2128,8 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-intersection-observer@9.4.3(react@18.2.0):
-    resolution: {integrity: sha512-WNRqMQvKpupr6MzecAQI0Pj0+JQong307knLP4g/nBex7kYfIaZsPpXaIhKHR+oV8z+goUbH9e10j6lGRnTzlQ==}
+  /react-intersection-observer@9.5.1(react@18.2.0):
+    resolution: {integrity: sha512-YwcNF/4WsMAG1rLVDQHSbpdEW9vDaIl4QW88d+vqeXNUewFV4AJDQB14oHpAJ3rRCnKRmwu3nqfwwYe6wioNIg==}
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
